@@ -58,6 +58,26 @@ footer {
   margin-top: 2rem;
 }
 
+#buttonContainer {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.dynamic-button {
+  padding: 0.5rem 1rem;
+  background-color: #008cba;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.dynamic-button:hover {
+  background-color: #005f73;
+}
+
 /* Media Queries */
 @media (max-width: 768px) {
   .container {
